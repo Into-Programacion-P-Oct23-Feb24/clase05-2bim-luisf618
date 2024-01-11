@@ -22,6 +22,7 @@ public class Ejemplo06 {
                 return b;
             } else {
                 return 1 + obtenerSuma(a, b - 1);
+                
             }
         }
     }

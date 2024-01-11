@@ -20,6 +20,8 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
+        // En esta opcion se presenta la suma directamente llamado a la funcion
+        // directamente y enviando los parametros directamente del arreglo
         
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
@@ -27,6 +29,9 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
+        // En esta opcion igual se presenta llamando directamente a la funcion
+        // pero se les asigna una nueva variable a los valores para que no sean
+        // enviadas directamente del arreglo
         
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
@@ -34,7 +39,9 @@ public class Ejemplo06 {
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
         }
-        
+        // En esta opcion se le asigna una variable a cada valor, se guarda la 
+        // funcion en una variable aparte y al momento de presentar se ubican
+        // las nuevas variables
         
 
     }
